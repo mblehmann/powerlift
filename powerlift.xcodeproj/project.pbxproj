@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F023DF6213D8673000C0CB9 /* flight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F023DF4213D8673000C0CB9 /* flight.cpp */; };
+		2F023DFC213D8DE4000C0CB9 /* flightDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F023DFA213D8DE4000C0CB9 /* flightDialog.cpp */; };
+		2F063D4C211DED020051DA30 /* competitionDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F063D4A211DED020051DA30 /* competitionDialog.cpp */; };
+		2F063D4F211DF4C40051DA30 /* checkinDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F063D4D211DF4C40051DA30 /* checkinDialog.cpp */; };
+		2F174E8A2145A3830055F45E /* lifterSummaryPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F174E882145A3830055F45E /* lifterSummaryPanel.cpp */; };
+		2F190101214C72E2001FD0B1 /* lifterListPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F1900FF214C72E2001FD0B1 /* lifterListPanel.cpp */; };
+		2F193F242171DEDE00184342 /* editLifterDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F193F222171DEDE00184342 /* editLifterDialog.cpp */; };
+		2F193F272171E24500184342 /* checkinFilterPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F193F252171E24500184342 /* checkinFilterPanel.cpp */; };
+		2F1BCCD3211F2A5C00525698 /* attemptPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F1BCCD1211F2A5C00525698 /* attemptPanel.cpp */; };
+		2F1C84112153FC4700E0AD3B /* category.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C840F2153FC4700E0AD3B /* category.cpp */; };
+		2F3C94FF2166D0EC00F1BDA5 /* competitionPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C94FD2166D0EC00F1BDA5 /* competitionPanel.cpp */; };
+		2F4324D52139AE220018F4C8 /* summaryPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F4324D32139AE220018F4C8 /* summaryPanel.cpp */; };
+		2F4324D82139C0430018F4C8 /* roundDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F4324D62139C0430018F4C8 /* roundDialog.cpp */; };
+		2F4324DB2139C22E0018F4C8 /* nextLiftersPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F4324D92139C22E0018F4C8 /* nextLiftersPanel.cpp */; };
+		2F4B7AD3217287CE00CFCF84 /* liftGridPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B7AD1217287CE00CFCF84 /* liftGridPanel.cpp */; };
+		2F4D1AB0214F551D00D00985 /* timerPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D1AAE214F551D00D00985 /* timerPanel.cpp */; };
+		2F543759216DC7E600AB153D /* editResultDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F543757216DC7E600AB153D /* editResultDialog.cpp */; };
+		2F54375C216DC7F700AB153D /* viewStandingsDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F54375A216DC7F700AB153D /* viewStandingsDialog.cpp */; };
+		2F54375F216DCBCC00AB153D /* editResultsPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F54375D216DCBCC00AB153D /* editResultsPanel.cpp */; };
+		2F543762216DCBE000AB153D /* standingsPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F543760216DCBE000AB153D /* standingsPanel.cpp */; };
+		2F54F4EA217E8493001B16F2 /* libwx_osx_cocoa_static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F54F4E8217E828A001B16F2 /* libwx_osx_cocoa_static.a */; };
+		2F589BD22118FFDD005A15BF /* powerliftFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F589BD12118FFDD005A15BF /* powerliftFrame.cpp */; };
+		2F589BD621190122005A15BF /* manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F589BD421190122005A15BF /* manager.cpp */; };
+		2F6C0830215966AE008F7165 /* roundPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C082E215966AE008F7165 /* roundPanel.cpp */; };
+		2F6C083321596E65008F7165 /* roundSummaryDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C083121596E65008F7165 /* roundSummaryDialog.cpp */; };
+		2F712CEF21193A8900177C87 /* overviewPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F712CED21193A8900177C87 /* overviewPanel.cpp */; };
+		2F75371C2119CE5A004EA0A7 /* addLifterDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F75371A2119CE5A004EA0A7 /* addLifterDialog.cpp */; };
+		2F76BBEB216DDDF90066205E /* liftPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F76BBE9216DDDF90066205E /* liftPanel.cpp */; };
+		2F76BBEE216DE48F0066205E /* editLiftsPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F76BBEC216DE48F0066205E /* editLiftsPanel.cpp */; };
+		2F7C494D2111285A007359A9 /* attempt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C494721112859007359A9 /* attempt.cpp */; };
+		2F7C494E2111285A007359A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C49482111285A007359A9 /* main.cpp */; };
+		2F7C494F2111285A007359A9 /* event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C494A2111285A007359A9 /* event.cpp */; };
+		2F7C49502111285A007359A9 /* lifter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C494C2111285A007359A9 /* lifter.cpp */; };
+		2F7E654C216BCE95004CF9C5 /* AirHorn.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2F7E654B216BC797004CF9C5 /* AirHorn.wav */; };
+		2F7E654D216BCE95004CF9C5 /* Buzzer.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2F7E6549216BC796004CF9C5 /* Buzzer.wav */; };
+		2F7E654E216BCE95004CF9C5 /* JapaneseTemple.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2F7E654A216BC797004CF9C5 /* JapaneseTemple.wav */; };
+		2F9933312174F4ED002C06A1 /* formPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F99332F2174F4ED002C06A1 /* formPanel.cpp */; };
+		2F995AF72118BD3000A74998 /* powerliftApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F995AF52118BD3000A74998 /* powerliftApp.cpp */; };
+		2FB4BB7221754071006FA310 /* standingsFilterPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FB4BB7021754071006FA310 /* standingsFilterPanel.cpp */; };
+		2FB6A308211DFC98001A93CB /* lifterPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FB6A306211DFC98001A93CB /* lifterPanel.cpp */; };
+		2FC2AF50211E5FF300444B22 /* firstWeightsPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FC2AF4E211E5FF300444B22 /* firstWeightsPanel.cpp */; };
+		2FC51B9B21404DDF00AF20F4 /* competitorGridPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FC51B9921404DDF00AF20F4 /* competitorGridPanel.cpp */; };
+		2FC51BA12140559D00AF20F4 /* flightGridDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FC51B9F2140559D00AF20F4 /* flightGridDialog.cpp */; };
+		2FC51BA4214055AE00AF20F4 /* flightGridPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FC51BA2214055AE00AF20F4 /* flightGridPanel.cpp */; };
+		2FE0CCC7213DC71A008DDA48 /* flightPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0CCC5213DC71A008DDA48 /* flightPanel.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F7C493921112844007359A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				2F7E654C216BCE95004CF9C5 /* AirHorn.wav in CopyFiles */,
+				2F7E654D216BCE95004CF9C5 /* Buzzer.wav in CopyFiles */,
+				2F7E654E216BCE95004CF9C5 /* JapaneseTemple.wav in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F023DF4213D8673000C0CB9 /* flight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flight.cpp; sourceTree = "<group>"; };
+		2F023DF5213D8673000C0CB9 /* flight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = flight.hpp; sourceTree = "<group>"; };
+		2F023DFA213D8DE4000C0CB9 /* flightDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flightDialog.cpp; sourceTree = "<group>"; };
+		2F023DFB213D8DE4000C0CB9 /* flightDialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = flightDialog.hpp; sourceTree = "<group>"; };
+		2F063D4A211DED020051DA30 /* competitionDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = competitionDialog.cpp; sourceTree = "<group>"; };
+		2F063D4B211DED020051DA30 /* competitionDialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = competitionDialog.hpp; sourceTree = "<group>"; };
+		2F063D4D211DF4C40051DA30 /* checkinDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = checkinDialog.cpp; sourceTree = "<group>"; };
+		2F063D4E211DF4C40051DA30 /* checkinDialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = checkinDialog.hpp; sourceTree = "<group>"; };
+		2F174E882145A3830055F45E /* lifterSummaryPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lifterSummaryPanel.cpp; sourceTree = "<group>"; };
+		2F174E892145A3830055F45E /* lifterSummaryPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lifterSummaryPanel.hpp; sourceTree = "<group>"; };
+		2F1900FF214C72E2001FD0B1 /* lifterListPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lifterListPanel.cpp; sourceTree = "<group>"; };
+		2F190100214C72E2001FD0B1 /* lifterListPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lifterListPanel.hpp; sourceTree = "<group>"; };
+		2F193F222171DEDE00184342 /* editLifterDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = editLifterDialog.cpp; sourceTree = "<group>"; };
+		2F193F232171DEDE00184342 /* editLifterDialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = editLifterDialog.hpp; sourceTree = "<group>"; };
+		2F193F252171E24500184342 /* checkinFilterPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = checkinFilterPanel.cpp; sourceTree = "<group>"; };
+		2F193F262171E24500184342 /* checkinFilterPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = checkinFilterPanel.hpp; sourceTree = "<group>"; };
+		2F1BCCD1211F2A5C00525698 /* attemptPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = attemptPanel.cpp; sourceTree = "<group>"; };
+		2F1BCCD2211F2A5C00525698 /* attemptPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = attemptPanel.hpp; sourceTree = "<group>"; };
+		2F1C840F2153FC4700E0AD3B /* category.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = category.cpp; sourceTree = "<group>"; };
+		2F1C84102153FC4700E0AD3B /* category.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = category.hpp; sourceTree = "<group>"; };
+		2F3C94FD2166D0EC00F1BDA5 /* competitionPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = competitionPanel.cpp; sourceTree = "<group>"; };
+		2F3C94FE2166D0EC00F1BDA5 /* competitionPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = competitionPanel.hpp; sourceTree = "<group>"; };
+		2F4324D32139AE220018F4C8 /* summaryPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = summaryPanel.cpp; sourceTree = "<group>"; };
+		2F4324D42139AE220018F4C8 /* summaryPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = summaryPanel.hpp; sourceTree = "<group>"; };
+		2F4324D62139C0430018F4C8 /* roundDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roundDialog.cpp; sourceTree = "<group>"; };
+		2F4324D72139C0430018F4C8 /* roundDialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = roundDialog.hpp; sourceTree = "<group>"; };
+		2F4324D92139C22E0018F4C8 /* nextLiftersPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nextLiftersPanel.cpp; sourceTree = "<group>"; };
+		2F4324DA2139C22E0018F4C8 /* nextLiftersPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = nextLiftersPanel.hpp; sourceTree = "<group>"; };
+		2F4B7AD1217287CE00CFCF84 /* liftGridPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = liftGridPanel.cpp; sourceTree = "<group>"; };
+		2F4B7AD2217287CE00CFCF84 /* liftGridPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = liftGridPanel.hpp; sourceTree = "<group>"; };
+		2F4D1AAE214F551D00D00985 /* timerPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = timerPanel.cpp; sourceTree = "<group>"; };
+		2F4D1AAF214F551D00D00985 /* timerPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = timerPanel.hpp; sourceTree = "<group>"; };
+		2F543757216DC7E600AB153D /* editResultDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = editResultDialog.cpp; sourceTree = "<group>"; };
+		2F543758216DC7E600AB153D /* editResultDialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = editResultDialog.hpp; sourceTree = "<group>"; };
+		2F54375A216DC7F700AB153D /* viewStandingsDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = viewStandingsDialog.cpp; sourceTree = "<group>"; };
+		2F54375B216DC7F700AB153D /* viewStandingsDialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = viewStandingsDialog.hpp; sourceTree = "<group>"; };
+		2F54375D216DCBCC00AB153D /* editResultsPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = editResultsPanel.cpp; sourceTree = "<group>"; };
+		2F54375E216DCBCC00AB153D /* editResultsPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = editResultsPanel.hpp; sourceTree = "<group>"; };
+		2F543760216DCBE000AB153D /* standingsPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = standingsPanel.cpp; sourceTree = "<group>"; };
+		2F543761216DCBE000AB153D /* standingsPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = standingsPanel.hpp; sourceTree = "<group>"; };
+		2F54F4E8217E828A001B16F2 /* libwx_osx_cocoa_static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwx_osx_cocoa_static.a; path = "../../Downloads/wxWidgets-3.0.4/lib/libwx_osx_cocoa_static.a"; sourceTree = "<group>"; };
+		2F589BD02118FFDD005A15BF /* powerliftFrame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = powerliftFrame.hpp; sourceTree = "<group>"; };
+		2F589BD12118FFDD005A15BF /* powerliftFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = powerliftFrame.cpp; sourceTree = "<group>"; };
+		2F589BD421190122005A15BF /* manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = manager.cpp; sourceTree = "<group>"; };
+		2F589BD521190122005A15BF /* manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = manager.hpp; sourceTree = "<group>"; };
+		2F6C082E215966AE008F7165 /* roundPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roundPanel.cpp; sourceTree = "<group>"; };
+		2F6C082F215966AE008F7165 /* roundPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = roundPanel.hpp; sourceTree = "<group>"; };
+		2F6C083121596E65008F7165 /* roundSummaryDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roundSummaryDialog.cpp; sourceTree = "<group>"; };
+		2F6C083221596E65008F7165 /* roundSummaryDialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = roundSummaryDialog.hpp; sourceTree = "<group>"; };
+		2F6D85942169272200674DDA /* wxcocoa.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = wxcocoa.xcconfig; sourceTree = "<group>"; };
+		2F712CED21193A8900177C87 /* overviewPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = overviewPanel.cpp; sourceTree = "<group>"; };
+		2F712CEE21193A8900177C87 /* overviewPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = overviewPanel.hpp; sourceTree = "<group>"; };
+		2F75371A2119CE5A004EA0A7 /* addLifterDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = addLifterDialog.cpp; sourceTree = "<group>"; };
+		2F75371B2119CE5A004EA0A7 /* addLifterDialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = addLifterDialog.hpp; sourceTree = "<group>"; };
+		2F76BBE9216DDDF90066205E /* liftPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = liftPanel.cpp; sourceTree = "<group>"; };
+		2F76BBEA216DDDF90066205E /* liftPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = liftPanel.hpp; sourceTree = "<group>"; };
+		2F76BBEC216DE48F0066205E /* editLiftsPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = editLiftsPanel.cpp; sourceTree = "<group>"; };
+		2F76BBED216DE48F0066205E /* editLiftsPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = editLiftsPanel.hpp; sourceTree = "<group>"; };
+		2F7C493B21112844007359A9 /* powerlift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = powerlift; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7C494521112859007359A9 /* attempt.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = attempt.hpp; sourceTree = "<group>"; };
+		2F7C494621112859007359A9 /* event.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = event.hpp; sourceTree = "<group>"; };
+		2F7C494721112859007359A9 /* attempt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = attempt.cpp; sourceTree = "<group>"; };
+		2F7C49482111285A007359A9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2F7C49492111285A007359A9 /* definition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = definition.h; sourceTree = "<group>"; };
+		2F7C494A2111285A007359A9 /* event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = event.cpp; sourceTree = "<group>"; };
+		2F7C494B2111285A007359A9 /* lifter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lifter.hpp; sourceTree = "<group>"; };
+		2F7C494C2111285A007359A9 /* lifter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lifter.cpp; sourceTree = "<group>"; };
+		2F7E6549216BC796004CF9C5 /* Buzzer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Buzzer.wav; sourceTree = "<group>"; };
+		2F7E654A216BC797004CF9C5 /* JapaneseTemple.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = JapaneseTemple.wav; path = powerlift/Sounds/JapaneseTemple.wav; sourceTree = SOURCE_ROOT; };
+		2F7E654B216BC797004CF9C5 /* AirHorn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AirHorn.wav; sourceTree = "<group>"; };
+		2F99332F2174F4ED002C06A1 /* formPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = formPanel.cpp; sourceTree = "<group>"; };
+		2F9933302174F4ED002C06A1 /* formPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = formPanel.hpp; sourceTree = "<group>"; };
+		2F995AEC2118B76E00A74998 /* Info_cocoa.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_cocoa.plist; sourceTree = "<group>"; };
+		2F995AF02118B78300A74998 /* wxvers.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = wxvers.xcconfig; sourceTree = "<group>"; };
+		2F995AF22118B78400A74998 /* wx.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = wx.xcconfig; sourceTree = "<group>"; };
+		2F995AF52118BD3000A74998 /* powerliftApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = powerliftApp.cpp; sourceTree = "<group>"; };
+		2F995AF62118BD3000A74998 /* powerliftApp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = powerliftApp.hpp; sourceTree = "<group>"; };
+		2FB4BB7021754071006FA310 /* standingsFilterPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = standingsFilterPanel.cpp; sourceTree = "<group>"; };
+		2FB4BB7121754071006FA310 /* standingsFilterPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = standingsFilterPanel.hpp; sourceTree = "<group>"; };
+		2FB4C0012111E47200664DC2 /* wxdebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = wxdebug.xcconfig; sourceTree = "<group>"; };
+		2FB4C0032111E47300664DC2 /* wxrelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = wxrelease.xcconfig; sourceTree = "<group>"; };
+		2FB6A306211DFC98001A93CB /* lifterPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lifterPanel.cpp; sourceTree = "<group>"; };
+		2FB6A307211DFC98001A93CB /* lifterPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lifterPanel.hpp; sourceTree = "<group>"; };
+		2FC2AF4E211E5FF300444B22 /* firstWeightsPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = firstWeightsPanel.cpp; sourceTree = "<group>"; };
+		2FC2AF4F211E5FF300444B22 /* firstWeightsPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = firstWeightsPanel.hpp; sourceTree = "<group>"; };
+		2FC51B9921404DDF00AF20F4 /* competitorGridPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = competitorGridPanel.cpp; sourceTree = "<group>"; };
+		2FC51B9A21404DDF00AF20F4 /* competitorGridPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = competitorGridPanel.hpp; sourceTree = "<group>"; };
+		2FC51B9F2140559D00AF20F4 /* flightGridDialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flightGridDialog.cpp; sourceTree = "<group>"; };
+		2FC51BA02140559D00AF20F4 /* flightGridDialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = flightGridDialog.hpp; sourceTree = "<group>"; };
+		2FC51BA2214055AE00AF20F4 /* flightGridPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flightGridPanel.cpp; sourceTree = "<group>"; };
+		2FC51BA3214055AE00AF20F4 /* flightGridPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = flightGridPanel.hpp; sourceTree = "<group>"; };
+		2FE0CCC5213DC71A008DDA48 /* flightPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flightPanel.cpp; sourceTree = "<group>"; };
+		2FE0CCC6213DC71A008DDA48 /* flightPanel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = flightPanel.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F7C493821112844007359A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F54F4EA217E8493001B16F2 /* libwx_osx_cocoa_static.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F4DD248217128F2004DCD5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C494721112859007359A9 /* attempt.cpp */,
+				2F7C494521112859007359A9 /* attempt.hpp */,
+				2F7C49492111285A007359A9 /* definition.h */,
+				2F7C494A2111285A007359A9 /* event.cpp */,
+				2F7C494621112859007359A9 /* event.hpp */,
+				2F7C494C2111285A007359A9 /* lifter.cpp */,
+				2F7C494B2111285A007359A9 /* lifter.hpp */,
+				2F589BD421190122005A15BF /* manager.cpp */,
+				2F589BD521190122005A15BF /* manager.hpp */,
+				2F023DF4213D8673000C0CB9 /* flight.cpp */,
+				2F023DF5213D8673000C0CB9 /* flight.hpp */,
+				2F1C840F2153FC4700E0AD3B /* category.cpp */,
+				2F1C84102153FC4700E0AD3B /* category.hpp */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F7C493221112844007359A9 = {
+			isa = PBXGroup;
+			children = (
+				2F995AF22118B78400A74998 /* wx.xcconfig */,
+				2F6D85942169272200674DDA /* wxcocoa.xcconfig */,
+				2FB4C0012111E47200664DC2 /* wxdebug.xcconfig */,
+				2FB4C0032111E47300664DC2 /* wxrelease.xcconfig */,
+				2F995AEC2118B76E00A74998 /* Info_cocoa.plist */,
+				2F995AF02118B78300A74998 /* wxvers.xcconfig */,
+				2F7C493D21112844007359A9 /* powerlift */,
+				2F7C493C21112844007359A9 /* Products */,
+				2F7FFA0D21112F6500A6436D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F7C493C21112844007359A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C493B21112844007359A9 /* powerlift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F7C493D21112844007359A9 /* powerlift */ = {
+			isa = PBXGroup;
+			children = (
+				2F995AF52118BD3000A74998 /* powerliftApp.cpp */,
+				2F995AF62118BD3000A74998 /* powerliftApp.hpp */,
+				2F7C49482111285A007359A9 /* main.cpp */,
+				2F4DD248217128F2004DCD5E /* Model */,
+				2FAB7320215D3C8200B7C9E2 /* Sounds */,
+				2FB6A303211DFC3E001A93CB /* UI */,
+			);
+			path = powerlift;
+			sourceTree = "<group>";
+		};
+		2F7FFA0D21112F6500A6436D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F54F4E8217E828A001B16F2 /* libwx_osx_cocoa_static.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FAB7320215D3C8200B7C9E2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2F7E654B216BC797004CF9C5 /* AirHorn.wav */,
+				2F7E6549216BC796004CF9C5 /* Buzzer.wav */,
+				2F7E654A216BC797004CF9C5 /* JapaneseTemple.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		2FB6A303211DFC3E001A93CB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2F589BD12118FFDD005A15BF /* powerliftFrame.cpp */,
+				2F589BD02118FFDD005A15BF /* powerliftFrame.hpp */,
+				2FB6A305211DFC66001A93CB /* Panels */,
+				2FB6A304211DFC5B001A93CB /* Dialogs */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2FB6A304211DFC5B001A93CB /* Dialogs */ = {
+			isa = PBXGroup;
+			children = (
+				2F063D4A211DED020051DA30 /* competitionDialog.cpp */,
+				2F063D4B211DED020051DA30 /* competitionDialog.hpp */,
+				2F75371A2119CE5A004EA0A7 /* addLifterDialog.cpp */,
+				2F75371B2119CE5A004EA0A7 /* addLifterDialog.hpp */,
+				2F193F222171DEDE00184342 /* editLifterDialog.cpp */,
+				2F193F232171DEDE00184342 /* editLifterDialog.hpp */,
+				2F063D4D211DF4C40051DA30 /* checkinDialog.cpp */,
+				2F063D4E211DF4C40051DA30 /* checkinDialog.hpp */,
+				2F023DFA213D8DE4000C0CB9 /* flightDialog.cpp */,
+				2F023DFB213D8DE4000C0CB9 /* flightDialog.hpp */,
+				2FC51B9F2140559D00AF20F4 /* flightGridDialog.cpp */,
+				2FC51BA02140559D00AF20F4 /* flightGridDialog.hpp */,
+				2F4324D62139C0430018F4C8 /* roundDialog.cpp */,
+				2F4324D72139C0430018F4C8 /* roundDialog.hpp */,
+				2F6C083121596E65008F7165 /* roundSummaryDialog.cpp */,
+				2F6C083221596E65008F7165 /* roundSummaryDialog.hpp */,
+				2F543757216DC7E600AB153D /* editResultDialog.cpp */,
+				2F543758216DC7E600AB153D /* editResultDialog.hpp */,
+				2F54375A216DC7F700AB153D /* viewStandingsDialog.cpp */,
+				2F54375B216DC7F700AB153D /* viewStandingsDialog.hpp */,
+			);
+			path = Dialogs;
+			sourceTree = "<group>";
+		};
+		2FB6A305211DFC66001A93CB /* Panels */ = {
+			isa = PBXGroup;
+			children = (
+				2F712CED21193A8900177C87 /* overviewPanel.cpp */,
+				2F712CEE21193A8900177C87 /* overviewPanel.hpp */,
+				2FC51B9921404DDF00AF20F4 /* competitorGridPanel.cpp */,
+				2FC51B9A21404DDF00AF20F4 /* competitorGridPanel.hpp */,
+				2F174E882145A3830055F45E /* lifterSummaryPanel.cpp */,
+				2F174E892145A3830055F45E /* lifterSummaryPanel.hpp */,
+				2F4324D32139AE220018F4C8 /* summaryPanel.cpp */,
+				2F4324D42139AE220018F4C8 /* summaryPanel.hpp */,
+				2F3C94FD2166D0EC00F1BDA5 /* competitionPanel.cpp */,
+				2F3C94FE2166D0EC00F1BDA5 /* competitionPanel.hpp */,
+				2FB6A306211DFC98001A93CB /* lifterPanel.cpp */,
+				2FB6A307211DFC98001A93CB /* lifterPanel.hpp */,
+				2F1900FF214C72E2001FD0B1 /* lifterListPanel.cpp */,
+				2F190100214C72E2001FD0B1 /* lifterListPanel.hpp */,
+				2F193F252171E24500184342 /* checkinFilterPanel.cpp */,
+				2F193F262171E24500184342 /* checkinFilterPanel.hpp */,
+				2FC2AF4E211E5FF300444B22 /* firstWeightsPanel.cpp */,
+				2FC2AF4F211E5FF300444B22 /* firstWeightsPanel.hpp */,
+				2FE0CCC5213DC71A008DDA48 /* flightPanel.cpp */,
+				2FE0CCC6213DC71A008DDA48 /* flightPanel.hpp */,
+				2FC51BA2214055AE00AF20F4 /* flightGridPanel.cpp */,
+				2FC51BA3214055AE00AF20F4 /* flightGridPanel.hpp */,
+				2F4B7AD1217287CE00CFCF84 /* liftGridPanel.cpp */,
+				2F4B7AD2217287CE00CFCF84 /* liftGridPanel.hpp */,
+				2F1BCCD1211F2A5C00525698 /* attemptPanel.cpp */,
+				2F1BCCD2211F2A5C00525698 /* attemptPanel.hpp */,
+				2F99332F2174F4ED002C06A1 /* formPanel.cpp */,
+				2F9933302174F4ED002C06A1 /* formPanel.hpp */,
+				2F76BBE9216DDDF90066205E /* liftPanel.cpp */,
+				2F76BBEA216DDDF90066205E /* liftPanel.hpp */,
+				2F4D1AAE214F551D00D00985 /* timerPanel.cpp */,
+				2F4D1AAF214F551D00D00985 /* timerPanel.hpp */,
+				2F4324D92139C22E0018F4C8 /* nextLiftersPanel.cpp */,
+				2F4324DA2139C22E0018F4C8 /* nextLiftersPanel.hpp */,
+				2F6C082E215966AE008F7165 /* roundPanel.cpp */,
+				2F6C082F215966AE008F7165 /* roundPanel.hpp */,
+				2F54375D216DCBCC00AB153D /* editResultsPanel.cpp */,
+				2F54375E216DCBCC00AB153D /* editResultsPanel.hpp */,
+				2F76BBEC216DE48F0066205E /* editLiftsPanel.cpp */,
+				2F76BBED216DE48F0066205E /* editLiftsPanel.hpp */,
+				2F543760216DCBE000AB153D /* standingsPanel.cpp */,
+				2F543761216DCBE000AB153D /* standingsPanel.hpp */,
+				2FB4BB7021754071006FA310 /* standingsFilterPanel.cpp */,
+				2FB4BB7121754071006FA310 /* standingsFilterPanel.hpp */,
+			);
+			path = Panels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F7C493A21112844007359A9 /* powerlift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7C494221112844007359A9 /* Build configuration list for PBXNativeTarget "powerlift" */;
+			buildPhases = (
+				2F7C493721112844007359A9 /* Sources */,
+				2F7C493821112844007359A9 /* Frameworks */,
+				2F7C493921112844007359A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = powerlift;
+			productName = powerlift;
+			productReference = 2F7C493B21112844007359A9 /* powerlift */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F7C493321112844007359A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Matheus Lehmann";
+				TargetAttributes = {
+					2F7C493A21112844007359A9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 2F7C493621112844007359A9 /* Build configuration list for PBXProject "powerlift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F7C493221112844007359A9;
+			productRefGroup = 2F7C493C21112844007359A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F7C493A21112844007359A9 /* powerlift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F7C493721112844007359A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F712CEF21193A8900177C87 /* overviewPanel.cpp in Sources */,
+				2F174E8A2145A3830055F45E /* lifterSummaryPanel.cpp in Sources */,
+				2F9933312174F4ED002C06A1 /* formPanel.cpp in Sources */,
+				2FC51BA12140559D00AF20F4 /* flightGridDialog.cpp in Sources */,
+				2F7C494F2111285A007359A9 /* event.cpp in Sources */,
+				2F4324D52139AE220018F4C8 /* summaryPanel.cpp in Sources */,
+				2F190101214C72E2001FD0B1 /* lifterListPanel.cpp in Sources */,
+				2F1BCCD3211F2A5C00525698 /* attemptPanel.cpp in Sources */,
+				2F76BBEE216DE48F0066205E /* editLiftsPanel.cpp in Sources */,
+				2F75371C2119CE5A004EA0A7 /* addLifterDialog.cpp in Sources */,
+				2FC51B9B21404DDF00AF20F4 /* competitorGridPanel.cpp in Sources */,
+				2F023DF6213D8673000C0CB9 /* flight.cpp in Sources */,
+				2F7C49502111285A007359A9 /* lifter.cpp in Sources */,
+				2F3C94FF2166D0EC00F1BDA5 /* competitionPanel.cpp in Sources */,
+				2F6C083321596E65008F7165 /* roundSummaryDialog.cpp in Sources */,
+				2F1C84112153FC4700E0AD3B /* category.cpp in Sources */,
+				2F589BD22118FFDD005A15BF /* powerliftFrame.cpp in Sources */,
+				2FE0CCC7213DC71A008DDA48 /* flightPanel.cpp in Sources */,
+				2F7C494D2111285A007359A9 /* attempt.cpp in Sources */,
+				2F4324D82139C0430018F4C8 /* roundDialog.cpp in Sources */,
+				2F4B7AD3217287CE00CFCF84 /* liftGridPanel.cpp in Sources */,
+				2FC51BA4214055AE00AF20F4 /* flightGridPanel.cpp in Sources */,
+				2F54375F216DCBCC00AB153D /* editResultsPanel.cpp in Sources */,
+				2F76BBEB216DDDF90066205E /* liftPanel.cpp in Sources */,
+				2F193F242171DEDE00184342 /* editLifterDialog.cpp in Sources */,
+				2FB6A308211DFC98001A93CB /* lifterPanel.cpp in Sources */,
+				2F063D4C211DED020051DA30 /* competitionDialog.cpp in Sources */,
+				2F6C0830215966AE008F7165 /* roundPanel.cpp in Sources */,
+				2F4D1AB0214F551D00D00985 /* timerPanel.cpp in Sources */,
+				2F023DFC213D8DE4000C0CB9 /* flightDialog.cpp in Sources */,
+				2F995AF72118BD3000A74998 /* powerliftApp.cpp in Sources */,
+				2F4324DB2139C22E0018F4C8 /* nextLiftersPanel.cpp in Sources */,
+				2F543759216DC7E600AB153D /* editResultDialog.cpp in Sources */,
+				2F7C494E2111285A007359A9 /* main.cpp in Sources */,
+				2FB4BB7221754071006FA310 /* standingsFilterPanel.cpp in Sources */,
+				2F543762216DCBE000AB153D /* standingsPanel.cpp in Sources */,
+				2F589BD621190122005A15BF /* manager.cpp in Sources */,
+				2F193F272171E24500184342 /* checkinFilterPanel.cpp in Sources */,
+				2F063D4F211DF4C40051DA30 /* checkinDialog.cpp in Sources */,
+				2F54375C216DC7F700AB153D /* viewStandingsDialog.cpp in Sources */,
+				2FC2AF50211E5FF300444B22 /* firstWeightsPanel.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2F7C494021112844007359A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB4C0012111E47200664DC2 /* wxdebug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info_cocoa.plist;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "";
+				WXROOT = "/Users/matheus/Downloads/wxWidgets-3.0.4";
+			};
+			name = Debug;
+		};
+		2F7C494121112844007359A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB4C0032111E47300664DC2 /* wxrelease.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info_cocoa.plist;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = "";
+				WXROOT = "/Users/matheus/Downloads/wxWidgets-3.0.4";
+			};
+			name = Release;
+		};
+		2F7C494321112844007359A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6D85942169272200674DDA /* wxcocoa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info_cocoa.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(WXROOT)/lib",
+				);
+				OTHER_LDFLAGS = "$(OTHER_LDFLAGS)";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PrivateHeaders";
+				PRODUCT_BUNDLE_IDENTIFIER = Matheus.powerlift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F7C494421112844007359A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6D85942169272200674DDA /* wxcocoa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info_cocoa.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(WXROOT)/lib",
+				);
+				OTHER_LDFLAGS = "$(OTHER_LDFLAGS)";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PrivateHeaders";
+				PRODUCT_BUNDLE_IDENTIFIER = Matheus.powerlift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F7C493621112844007359A9 /* Build configuration list for PBXProject "powerlift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7C494021112844007359A9 /* Debug */,
+				2F7C494121112844007359A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7C494221112844007359A9 /* Build configuration list for PBXNativeTarget "powerlift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7C494321112844007359A9 /* Debug */,
+				2F7C494421112844007359A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F7C493321112844007359A9 /* Project object */;
+}
